@@ -7,14 +7,14 @@
 <body>
 	<%
 	String greeting = "Good morning";
-	/* Calendar now = Calendar.getInstance();
+	 Calendar now = Calendar.getInstance();
 	int hour = now.get(Calendar.HOUR_OF_DAY);
 	if (hour >= 12 && hour < 18) {
 		greeting = "Good afternoon";
 	}
 	else if (hour >= 18) {
 		greeting = "Good evening";
-	} */
+	} 
 	
 	String name = "Aryan Patel"; // replace with student
 	%>
