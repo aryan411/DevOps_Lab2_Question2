@@ -7,5 +7,10 @@ pipeline {
                 echo "BUILD ID: ${env.BUILD_ID}"
             }
         }
+        stage('Build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
     }
 }
