@@ -14,7 +14,7 @@
 	}
 	else if (hour >= 18) {
 		greeting = "Good evening";
-	} 
+	}  
 	
 	String name = "Aryan Patel"; // replace with student
 	%>
