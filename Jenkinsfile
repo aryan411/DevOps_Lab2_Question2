@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh "docker build -t aryan411/webapp:latest ."
+                sh "docker build -t aryan411/welcomeappweb:1.0.0 ."
             }
         }
         stage('Docker Login') {
