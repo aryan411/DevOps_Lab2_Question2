@@ -1,5 +1,4 @@
 pipeline {
-    agent any
     environment {
         DOCKERHUB_PWD=credentials('Docker_Pwd')
     }
