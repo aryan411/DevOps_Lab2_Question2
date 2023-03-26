@@ -7,6 +7,7 @@ pipeline {
         stage('Maven Build') {
             steps {
                 sh 'mvn clean package'
+                sh 'ls -la'
             }
         }
         stage('Build Docker Image') {
